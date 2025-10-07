@@ -1,0 +1,6 @@
+﻿services:
+  admin:
+    image: registry.barazman.dev/sanjab/admin-panel:latest
+    restart: unless-stopped
+    ports:
+      - 38002:80
